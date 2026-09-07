@@ -1,0 +1,10 @@
+{
+  "image": "/Users/hengning/Developer/saint/chest_xray/chest_xray/test/NORMAL/IM-0001-0001.jpeg",
+  "pneumonia_score": 0.9672414640086472,
+  "threshold": 0.5,
+  "predicted_label": "PNEUMONIA",
+  "aux_available": false,
+  "use": "research workflow only; score is not a calibrated clinical probability",
+  "batch_score": 0.9672445945221656,
+  "absolute_difference": 3.1305135184123145e-06
+}

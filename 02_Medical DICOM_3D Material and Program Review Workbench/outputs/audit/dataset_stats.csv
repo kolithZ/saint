@@ -1,0 +1,7 @@
+split,class,found,readable,unreadable
+train,NORMAL,1341,1341,0
+train,PNEUMONIA,3875,3875,0
+val,NORMAL,8,8,0
+val,PNEUMONIA,8,8,0
+test,NORMAL,234,234,0
+test,PNEUMONIA,390,390,0

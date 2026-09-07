@@ -1,0 +1,22 @@
+{
+  "data_root": "/Users/hengning/Developer/saint/chest_xray",
+  "subset_path": "/Users/hengning/Developer/saint/02_Medical DICOM_3D Material and Program Review Workbench/configs/train_subset.csv",
+  "output_dir": "/Users/hengning/Developer/saint/02_Medical DICOM_3D Material and Program Review Workbench/outputs/baseline",
+  "audit_dir": "/Users/hengning/Developer/saint/02_Medical DICOM_3D Material and Program Review Workbench/outputs/audit",
+  "metadata_csv": null,
+  "model": "resnet18",
+  "pretrained": true,
+  "pretrained_weights": null,
+  "image_size": 224,
+  "train_samples_per_class": 300,
+  "batch_size": 16,
+  "epochs": 3,
+  "learning_rate": 0.001,
+  "backbone_learning_rate": 0.0001,
+  "freeze_backbone": true,
+  "random_seed": 42,
+  "device": "cpu",
+  "num_workers": 0,
+  "torch_threads": 4,
+  "config_path": "/Users/hengning/Developer/saint/02_Medical DICOM_3D Material and Program Review Workbench/configs/baseline.yaml"
+}

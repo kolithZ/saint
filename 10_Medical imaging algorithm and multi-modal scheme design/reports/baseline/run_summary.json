@@ -1,0 +1,34 @@
+{
+  "status": "complete",
+  "validation": {
+    "n": 16,
+    "threshold": 0.5,
+    "roc_auc": 1.0,
+    "roc_auc_unavailable_reason": null,
+    "pneumonia_recall": 1.0,
+    "recall_unavailable_reason": null,
+    "TP": 8,
+    "FP": 0,
+    "TN": 8,
+    "FN": 0
+  },
+  "test": {
+    "n": 618,
+    "threshold": 0.5,
+    "roc_auc": 0.9419219884336163,
+    "roc_auc_unavailable_reason": null,
+    "pneumonia_recall": 0.979328165374677,
+    "recall_unavailable_reason": null,
+    "TP": 379,
+    "FP": 121,
+    "TN": 110,
+    "FN": 8
+  },
+  "elapsed_seconds": 84.16924770793412,
+  "classifier_iterations": [
+    66
+  ],
+  "patient_level_isolation_verified": false,
+  "evaluation_scope": "limited workflow experiment with heuristic filename isolation; not verified patient-independent",
+  "multimodal_experiment": false
+}

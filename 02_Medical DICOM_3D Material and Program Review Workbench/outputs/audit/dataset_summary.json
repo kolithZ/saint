@@ -1,0 +1,107 @@
+{
+  "data_root": "/Users/hengning/Developer/saint/chest_xray",
+  "found": 5856,
+  "readable": 5856,
+  "unreadable": 0,
+  "statistics": [
+    {
+      "split": "train",
+      "class": "NORMAL",
+      "found": 1341,
+      "readable": 1341,
+      "unreadable": 0
+    },
+    {
+      "split": "train",
+      "class": "PNEUMONIA",
+      "found": 3875,
+      "readable": 3875,
+      "unreadable": 0
+    },
+    {
+      "split": "val",
+      "class": "NORMAL",
+      "found": 8,
+      "readable": 8,
+      "unreadable": 0
+    },
+    {
+      "split": "val",
+      "class": "PNEUMONIA",
+      "found": 8,
+      "readable": 8,
+      "unreadable": 0
+    },
+    {
+      "split": "test",
+      "class": "NORMAL",
+      "found": 234,
+      "readable": 234,
+      "unreadable": 0
+    },
+    {
+      "split": "test",
+      "class": "PNEUMONIA",
+      "found": 390,
+      "readable": 390,
+      "unreadable": 0
+    }
+  ],
+  "common_sizes": [
+    {
+      "size": "1072x648",
+      "count": 7
+    },
+    {
+      "size": "1008x704",
+      "count": 7
+    },
+    {
+      "size": "1216x872",
+      "count": 6
+    },
+    {
+      "size": "1080x728",
+      "count": 6
+    },
+    {
+      "size": "992x592",
+      "count": 6
+    },
+    {
+      "size": "992x608",
+      "count": 6
+    },
+    {
+      "size": "1304x968",
+      "count": 5
+    },
+    {
+      "size": "1088x712",
+      "count": 5
+    },
+    {
+      "size": "1008x680",
+      "count": 5
+    },
+    {
+      "size": "976x672",
+      "count": 5
+    }
+  ],
+  "duplicate_groups": {
+    "file_duplicates": 30,
+    "decoded_pixel_duplicates": 30
+  },
+  "cross_split_duplicate_groups": {
+    "file_duplicates": 0,
+    "decoded_pixel_duplicates": 0
+  },
+  "patient_isolation": {
+    "status": "unverified",
+    "reason": "No reliable patient_id/study_id metadata supplied; filenames are not treated as verified IDs.",
+    "view_position": "Unavailable; image-only model."
+  },
+  "excluded_rule": "Only unreadable images are excluded; original split directories and labels remain unchanged.",
+  "ignored": "Hidden files, __MACOSX, unsupported extensions and nested chest_xray copies are not scanned."
+}

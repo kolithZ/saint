@@ -1,0 +1,13 @@
+relative_path,split,true_label,label_id,pneumonia_score,threshold,predicted_label,outcome,aux_available,review_note
+test/PNEUMONIA/person15_virus_46.jpeg,test,PNEUMONIA,1,0.5614810957295073,0.5,PNEUMONIA,TP,False,Original/preprocessed geometry and brightness for engineering review; dataset label unchanged
+test/PNEUMONIA/person1608_virus_2786.jpeg,test,PNEUMONIA,1,0.6689738916669876,0.5,PNEUMONIA,TP,False,Original/preprocessed geometry and brightness for engineering review; dataset label unchanged
+test/PNEUMONIA/person138_bacteria_658.jpeg,test,PNEUMONIA,1,0.8121123300373475,0.5,PNEUMONIA,TP,False,Original/preprocessed geometry and brightness for engineering review; dataset label unchanged
+test/NORMAL/NORMAL2-IM-0217-0001.jpeg,test,NORMAL,0,0.495080025988649,0.5,NORMAL,TN,False,Original/preprocessed geometry and brightness for engineering review; dataset label unchanged
+test/NORMAL/IM-0027-0001.jpeg,test,NORMAL,0,0.4847608487048689,0.5,NORMAL,TN,False,Original/preprocessed geometry and brightness for engineering review; dataset label unchanged
+test/NORMAL/NORMAL2-IM-0196-0001.jpeg,test,NORMAL,0,0.48145285875518945,0.5,NORMAL,TN,False,Original/preprocessed geometry and brightness for engineering review; dataset label unchanged
+test/PNEUMONIA/person109_bacteria_512.jpeg,test,PNEUMONIA,1,0.0009227509445359401,0.5,NORMAL,FN,False,Original/preprocessed geometry and brightness for engineering review; dataset label unchanged
+test/PNEUMONIA/person1685_virus_2903.jpeg,test,PNEUMONIA,1,0.0024677235737885195,0.5,NORMAL,FN,False,Original/preprocessed geometry and brightness for engineering review; dataset label unchanged
+test/PNEUMONIA/person158_bacteria_745.jpeg,test,PNEUMONIA,1,0.03129908611696974,0.5,NORMAL,FN,False,Original/preprocessed geometry and brightness for engineering review; dataset label unchanged
+test/NORMAL/IM-0022-0001.jpeg,test,NORMAL,0,0.9999999999999614,0.5,PNEUMONIA,FP,False,Original/preprocessed geometry and brightness for engineering review; dataset label unchanged
+test/NORMAL/NORMAL2-IM-0256-0001.jpeg,test,NORMAL,0,0.9999999999970259,0.5,PNEUMONIA,FP,False,Original/preprocessed geometry and brightness for engineering review; dataset label unchanged
+test/NORMAL/NORMAL2-IM-0232-0001.jpeg,test,NORMAL,0,0.9999999939721336,0.5,PNEUMONIA,FP,False,Original/preprocessed geometry and brightness for engineering review; dataset label unchanged

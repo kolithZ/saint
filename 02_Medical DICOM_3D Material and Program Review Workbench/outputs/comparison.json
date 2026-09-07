@@ -1,0 +1,37 @@
+{
+  "experiments": [
+    {
+      "experiment": "baseline",
+      "best_epoch": 3,
+      "n": 624,
+      "sensitivity": 0.9384615384615385,
+      "roc_auc": 0.9373328950252027,
+      "specificity": 0.688034188034188,
+      "accuracy": 0.844551282051282,
+      "tp": 366,
+      "tn": 161,
+      "fp": 73,
+      "fn": 24
+    },
+    {
+      "experiment": "layer4_finetune",
+      "best_epoch": 2,
+      "n": 624,
+      "sensitivity": 0.9871794871794872,
+      "roc_auc": 0.9419570458031996,
+      "specificity": 0.6538461538461539,
+      "accuracy": 0.8621794871794872,
+      "tp": 385,
+      "tn": 153,
+      "fp": 81,
+      "fn": 5
+    }
+  ],
+  "improved_minus_baseline": {
+    "sensitivity": 0.04871794871794877,
+    "roc_auc": 0.004624150777996938,
+    "specificity": -0.03418803418803418,
+    "accuracy": 0.017628205128205177
+  },
+  "interpretation": "One fixed-seed, small-sample comparison; a change in point estimates does not establish statistical or clinical superiority."
+}

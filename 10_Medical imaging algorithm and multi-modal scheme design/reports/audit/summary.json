@@ -1,0 +1,57 @@
+{
+  "data_root": "/Users/hengning/Developer/saint/chest_xray/chest_xray",
+  "scope": "Direct JPEG/PNG files in six class directories; hidden entries and symlinks excluded",
+  "image_count": 5856,
+  "counts_by_split": {
+    "train": {
+      "NORMAL": 1341,
+      "PNEUMONIA": 3875
+    },
+    "val": {
+      "NORMAL": 8,
+      "PNEUMONIA": 8
+    },
+    "test": {
+      "NORMAL": 234,
+      "PNEUMONIA": 390
+    }
+  },
+  "unreadable_count": 0,
+  "modes": {
+    "L": 5573,
+    "RGB": 283
+  },
+  "issue_counts": {
+    "hidden_ignored": 4
+  },
+  "dimensions": {
+    "width": {
+      "min": 384,
+      "max": 2916
+    },
+    "height": {
+      "min": 127,
+      "max": 2713
+    }
+  },
+  "duplicates": {
+    "file_sha256": {
+      "groups": 30,
+      "cross_split_groups": 0,
+      "conflicting_label_groups": 0
+    },
+    "rgb_pixel_sha256": {
+      "groups": 30,
+      "cross_split_groups": 0,
+      "conflicting_label_groups": 0
+    }
+  },
+  "candidate_cross_split_groups": 170,
+  "unmatched_filenames": 0,
+  "patient_level_isolation_verified": false,
+  "environment": {
+    "python": "3.14.6",
+    "Pillow": "12.3.0"
+  },
+  "manifest_sha256": "b2059fb30319da6137a4cef15ca1f54161b714ccc2cb096b608463dc88ada037"
+}

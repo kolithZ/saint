@@ -1,0 +1,13 @@
+.venv/
+.torch/
+__pycache__/
+*.py[cod]
+
+# Derived from the external image directory; regenerate locally.
+outputs/*.csv
+outputs/*.json
+outputs/*.pt
+outputs/error_cases/
+
+# Deterministic manifests are locally generated and include external filenames/hashes.
+splits/*.csv

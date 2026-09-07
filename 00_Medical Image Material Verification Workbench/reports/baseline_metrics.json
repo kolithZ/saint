@@ -1,0 +1,122 @@
+{
+  "model": "16x16 grayscale + NumPy weighted L2 logistic regression",
+  "config": {
+    "image_size": 16,
+    "iterations": 1500,
+    "l2": 0.01,
+    "threshold": 0.5
+  },
+  "threshold_policy": "fixed 0.5 before validation/test; no tuning on test",
+  "learning_rate": 0.015561780267662622,
+  "training_loss": [
+    {
+      "iteration": 1,
+      "loss": 0.6026514664740318
+    },
+    {
+      "iteration": 101,
+      "loss": 0.2267852094780869
+    },
+    {
+      "iteration": 201,
+      "loss": 0.1973067077312834
+    },
+    {
+      "iteration": 301,
+      "loss": 0.18021387384400467
+    },
+    {
+      "iteration": 401,
+      "loss": 0.16799563823350888
+    },
+    {
+      "iteration": 501,
+      "loss": 0.15847110413287538
+    },
+    {
+      "iteration": 601,
+      "loss": 0.15070588779390284
+    },
+    {
+      "iteration": 701,
+      "loss": 0.14420969307650366
+    },
+    {
+      "iteration": 801,
+      "loss": 0.13868635284125547
+    },
+    {
+      "iteration": 901,
+      "loss": 0.13393793289719266
+    },
+    {
+      "iteration": 1001,
+      "loss": 0.12982237464420585
+    },
+    {
+      "iteration": 1101,
+      "loss": 0.12623254869125594
+    },
+    {
+      "iteration": 1201,
+      "loss": 0.12308485019926313
+    },
+    {
+      "iteration": 1301,
+      "loss": 0.12031244753073414
+    },
+    {
+      "iteration": 1401,
+      "loss": 0.11786098704087378
+    },
+    {
+      "iteration": 1500,
+      "loss": 0.11570620483246219
+    }
+  ],
+  "manifest_sha256": "422d08d3050d6493e99127f8655331e518bff900256e029d2d450f5969b71f45",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pillow": "12.3.0"
+  },
+  "auxiliary_metadata_used": false,
+  "metrics": {
+    "train": {
+      "n": 240,
+      "auroc": 0.9973611111111111,
+      "sensitivity": 0.95,
+      "threshold": 0.5,
+      "counts": {
+        "tn": 119,
+        "fp": 1,
+        "fn": 6,
+        "tp": 114
+      }
+    },
+    "val": {
+      "n": 80,
+      "auroc": 0.981875,
+      "sensitivity": 0.9,
+      "threshold": 0.5,
+      "counts": {
+        "tn": 38,
+        "fp": 2,
+        "fn": 4,
+        "tp": 36
+      }
+    },
+    "test": {
+      "n": 80,
+      "auroc": 0.755625,
+      "sensitivity": 0.8,
+      "threshold": 0.5,
+      "counts": {
+        "tn": 18,
+        "fp": 22,
+        "fn": 8,
+        "tp": 32
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "source": "../chest_xray",
+  "output": "../data/chest_xray_small",
+  "reports": "reports",
+  "seed": 20260907,
+  "images_per_class": {"train": 120, "val": 40, "test": 40},
+  "baseline": {"image_size": 16, "iterations": 1500, "l2": 0.01, "threshold": 0.5}
+}

@@ -1,0 +1,63 @@
+{
+  "n": 624,
+  "positive_class": "PNEUMONIA",
+  "decision_rule": "p_pneumonia > 0.5",
+  "sensitivity": 0.9871794871794872,
+  "specificity": 0.6538461538461539,
+  "accuracy": 0.8621794871794872,
+  "roc_auc": 0.9419570458031996,
+  "confusion_matrix": [
+    [
+      153,
+      81
+    ],
+    [
+      5,
+      385
+    ]
+  ],
+  "tn": 153,
+  "fp": 81,
+  "fn": 5,
+  "tp": 385,
+  "loss": 0.5624302855485905,
+  "split": "test",
+  "test_found": 624,
+  "test_used": 624,
+  "test_excluded": 0,
+  "checkpoint": "/Users/hengning/Developer/saint/02_Medical DICOM_3D Material and Program Review Workbench/outputs/improved/best.pt",
+  "checkpoint_sha256": "137d861ef48ffa3316af8eb17b9403e9b29eb6e3ff4ddf8850f81b82a7e34a65",
+  "best_epoch": 2,
+  "manifest_sha256": "291305837f671a6c50cf6263c2562614ee12198812f3b629df27846d48bbc3ba",
+  "train_data_sha256": "7a5d9cb143fabe05e41e1509983dd251acbdc5d6f2b904012ddf9439df2df865",
+  "val_data_sha256": "bc5c676a171529485a14a9efad59d7efc6063d9c7e54dce6cb4e3c0a5358ce57",
+  "test_data_sha256": "4071559a7604e00fd48494b82035588895a678d7780499b574c3c6112009011e",
+  "training_config": {
+    "data_root": "/Users/hengning/Developer/saint/chest_xray",
+    "subset_path": "/Users/hengning/Developer/saint/02_Medical DICOM_3D Material and Program Review Workbench/configs/train_subset.csv",
+    "output_dir": "/Users/hengning/Developer/saint/02_Medical DICOM_3D Material and Program Review Workbench/outputs/improved",
+    "audit_dir": "/Users/hengning/Developer/saint/02_Medical DICOM_3D Material and Program Review Workbench/outputs/audit",
+    "metadata_csv": null,
+    "model": "resnet18",
+    "pretrained": true,
+    "pretrained_weights": null,
+    "image_size": 224,
+    "train_samples_per_class": 300,
+    "batch_size": 16,
+    "epochs": 3,
+    "learning_rate": 0.001,
+    "backbone_learning_rate": 0.0001,
+    "freeze_backbone": false,
+    "random_seed": 42,
+    "device": "cpu",
+    "num_workers": 0,
+    "torch_threads": 4,
+    "config_path": "/Users/hengning/Developer/saint/02_Medical DICOM_3D Material and Program Review Workbench/configs/improved.yaml"
+  },
+  "pretrained_weights": {
+    "name": "IMAGENET1K_V1",
+    "url": "https://download.pytorch.org/models/resnet18-f37072fd.pth",
+    "sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec"
+  },
+  "limitation": "Internal dataset evaluation only. Original splits retained; patient isolation requires reliable metadata. Not for clinical use."
+}

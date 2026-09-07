@@ -1,0 +1,9 @@
+# Fill from the actual download record; do not infer provenance from filenames.
+dataset_name: null
+download_url: null
+original_publisher: null
+license: null
+download_date: null
+deidentification_evidence: null
+local_directory: ../chest_xray
+status: unverified

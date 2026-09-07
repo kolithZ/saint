@@ -1,0 +1,10 @@
+{
+  "data_root": "/Users/hengning/Developer/saint/chest_xray/chest_xray",
+  "compare_root": "/Users/hengning/Developer/saint/chest_xray",
+  "primary_image_count": 5856,
+  "comparison_image_count": 5856,
+  "only_primary": [],
+  "only_comparison": [],
+  "different_bytes": [],
+  "identical_image_paths_and_bytes_in_scope": true
+}

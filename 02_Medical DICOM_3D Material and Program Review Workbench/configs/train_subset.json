@@ -1,0 +1,8 @@
+{
+  "random_seed": 42,
+  "samples_per_class": 300,
+  "manifest_sha256": "291305837f671a6c50cf6263c2562614ee12198812f3b629df27846d48bbc3ba",
+  "data_sha256": "7a5d9cb143fabe05e41e1509983dd251acbdc5d6f2b904012ddf9439df2df865",
+  "excluded_unreadable": [],
+  "selection": "Sorted train paths; random.Random(seed); balanced sampling without replacement."
+}

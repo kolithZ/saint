@@ -1,0 +1,21 @@
+test_audit_real_decoding_duplicates_scope_and_outputs (test_pipeline.PipelineTests.test_audit_real_decoding_duplicates_scope_and_outputs) ... ok
+test_candidate_groups_preserve_namespaces (test_pipeline.PipelineTests.test_candidate_groups_preserve_namespaces) ... ok
+test_exif_orientation_is_applied (test_pipeline.PipelineTests.test_exif_orientation_is_applied) ... ok
+test_geometry_keeps_full_field_and_rejects_high_depth (test_pipeline.PipelineTests.test_geometry_keeps_full_field_and_rejects_high_depth) ... ok
+test_metrics_and_undefined_cases (test_pipeline.PipelineTests.test_metrics_and_undefined_cases) ... ok
+test_no_patient_claim_and_deterministic_selection (test_pipeline.PipelineTests.test_no_patient_claim_and_deterministic_selection) ... ok
+test_numeric_classifier_matches_sklearn (test_pipeline.PipelineTests.test_numeric_classifier_matches_sklearn) ... ok
+test_output_and_sample_paths_cannot_escape (test_pipeline.PipelineTests.test_output_and_sample_paths_cannot_escape) ... ok
+test_stale_image_hash_rejected (test_pipeline.PipelineTests.test_stale_image_hash_rejected) ... ok
+test_transitive_conflicts_quarantine_all_members (test_pipeline.PipelineTests.test_transitive_conflicts_quarantine_all_members) ... ok
+test_complete_numeric_run_passes (test_verification.VerificationTests.test_complete_numeric_run_passes) ... ok
+test_feature_rows_and_nonfinite_values_rejected (test_verification.VerificationTests.test_feature_rows_and_nonfinite_values_rejected) ... ok
+test_incomplete_status_and_inconsistent_summary_rejected (test_verification.VerificationTests.test_incomplete_status_and_inconsistent_summary_rejected) ... ok
+test_interrupted_run_without_completion_marker_rejected (test_verification.VerificationTests.test_interrupted_run_without_completion_marker_rejected) ... ok
+test_lock_and_config_threshold_must_agree (test_verification.VerificationTests.test_lock_and_config_threshold_must_agree) ... ok
+test_prediction_metadata_corruption_rejected (test_verification.VerificationTests.test_prediction_metadata_corruption_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.129s
+
+OK

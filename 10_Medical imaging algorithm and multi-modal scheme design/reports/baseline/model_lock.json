@@ -1,0 +1,8 @@
+{
+  "config_sha256": "ba67001ca326cc8a678ada50a93e0af1068be581e7338d0999b1585f64a4b0d7",
+  "classifier_sha256": "2693fe0579ae8af76234c04077cc6a51318bf43788bae1badf615f1004c79d87",
+  "backbone_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+  "manifest_sha256": "95743166455f2cc057db1f2cc2e972f07124f78ceab77a58358ee446e5eced4e",
+  "threshold": 0.5,
+  "test_used_for_fit_or_selection": false
+}

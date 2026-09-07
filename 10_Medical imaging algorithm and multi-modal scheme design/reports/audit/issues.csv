@@ -1,0 +1,5 @@
+relative_path,issue,detail
+train/NORMAL/.DS_Store,hidden_ignored,
+train/PNEUMONIA/.DS_Store,hidden_ignored,
+val/NORMAL/.DS_Store,hidden_ignored,
+val/PNEUMONIA/.DS_Store,hidden_ignored,

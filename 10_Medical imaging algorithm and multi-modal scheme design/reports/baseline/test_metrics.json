@@ -1,0 +1,12 @@
+{
+  "n": 618,
+  "threshold": 0.5,
+  "roc_auc": 0.9419219884336163,
+  "roc_auc_unavailable_reason": null,
+  "pneumonia_recall": 0.979328165374677,
+  "recall_unavailable_reason": null,
+  "TP": 379,
+  "FP": 121,
+  "TN": 110,
+  "FN": 8
+}

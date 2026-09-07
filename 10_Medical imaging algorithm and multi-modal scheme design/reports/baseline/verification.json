@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "checks": [
+    "artifact checksums",
+    "no exact duplicate or candidate-prefix split overlaps",
+    "scaler equals training-only moments",
+    "saved validation and test scores",
+    "recomputed metrics"
+  ],
+  "patient_level_isolation_verified": false
+}

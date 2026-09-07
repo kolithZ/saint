@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "checks": [
+    "completed run and consistent summary",
+    "artifact checksums",
+    "manifest labels and counts",
+    "no exact duplicate or candidate-prefix split overlaps",
+    "finite feature and classifier arrays with matching shapes",
+    "scaler equals training-only moments",
+    "all validation and test prediction fields",
+    "recomputed metrics"
+  ],
+  "patient_level_isolation_verified": false
+}

@@ -1,0 +1,7 @@
+torch>=2.8,<3
+torchvision>=0.23,<1
+numpy>=2,<3
+Pillow>=11,<13
+matplotlib>=3.10,<4
+PyYAML>=6,<7
+scikit-learn>=1.6,<2

@@ -1,0 +1,34 @@
+[
+  {
+    "relative_path": "test/PNEUMONIA/person15_virus_46.jpeg",
+    "outcome": "TP",
+    "batch_score": 0.5614810957295073,
+    "single_score": 0.5614988779767907,
+    "absolute_score_difference": 1.778224728332667e-05,
+    "label_matches": true
+  },
+  {
+    "relative_path": "test/NORMAL/NORMAL2-IM-0217-0001.jpeg",
+    "outcome": "TN",
+    "batch_score": 0.495080025988649,
+    "single_score": 0.49510695202581423,
+    "absolute_score_difference": 2.6926037165253547e-05,
+    "label_matches": true
+  },
+  {
+    "relative_path": "test/NORMAL/IM-0022-0001.jpeg",
+    "outcome": "FP",
+    "batch_score": 0.9999999999999614,
+    "single_score": 0.9999999999999614,
+    "absolute_score_difference": 0.0,
+    "label_matches": true
+  },
+  {
+    "relative_path": "test/PNEUMONIA/person109_bacteria_512.jpeg",
+    "outcome": "FN",
+    "batch_score": 0.0009227509445359401,
+    "single_score": 0.0009227184778092176,
+    "absolute_score_difference": 3.2466726722444467e-08,
+    "label_matches": true
+  }
+]

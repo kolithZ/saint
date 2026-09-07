@@ -1,0 +1,30 @@
+{
+  "variant": "layer4_finetune",
+  "device": "cpu",
+  "train_images": 600,
+  "val_found": 16,
+  "val_used": 16,
+  "excluded_validation": [],
+  "epochs": 3,
+  "best_epoch": 2,
+  "best_val_loss": 0.14729619026184082,
+  "trainable_parameters": 8394754,
+  "total_parameters": 11177538,
+  "seconds": 51.2232177919941,
+  "manifest_sha256": "291305837f671a6c50cf6263c2562614ee12198812f3b629df27846d48bbc3ba",
+  "train_data_sha256": "7a5d9cb143fabe05e41e1509983dd251acbdc5d6f2b904012ddf9439df2df865",
+  "val_data_sha256": "bc5c676a171529485a14a9efad59d7efc6063d9c7e54dce6cb4e3c0a5358ce57",
+  "pretrained_weights": {
+    "name": "IMAGENET1K_V1",
+    "url": "https://download.pytorch.org/models/resnet18-f37072fd.pth",
+    "sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec"
+  },
+  "checkpoint_sha256": "137d861ef48ffa3316af8eb17b9403e9b29eb6e3ff4ddf8850f81b82a7e34a65",
+  "environment": {
+    "python": "3.14.6",
+    "torch": "2.14.0",
+    "torchvision": "0.29.0",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O"
+  },
+  "selection": "Minimum val loss; test is never read by the training script."
+}

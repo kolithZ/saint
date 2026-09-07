@@ -1,0 +1,41 @@
+{
+  "date": "2026-09-07",
+  "implementation_sha256": {
+    "run_baseline.py": "5aafc401fda8bb259426030105cef8641776cbb61cb80bd00d46ae712daa390b",
+    "prepare_manifest.py": "f492ca26dc38e36963aea3a072d72b17c9af4ed8ae5717fde83e88b33e37805b",
+    "predict.py": "e4bf78abc6395e463bafcc44ec3e6a85e62bdd2c56140def8dfb892dd1f60a4d",
+    "inspect_chest_xray.py": "237aa2685f60665f7872a487c0fd06a422150cd9d9e736f942c61110107e3f2a",
+    "verify_run.py": "42270f02de1a9cc6e7c7af256fa3994dc333b55164daa5f21ca643bc7cc7518d",
+    "tests/test_pipeline.py": "48431d4701670467a1189e33cd831517c61b090446e99dfac06405ac38c3a438",
+    "xray/audit.py": "6bfaa87a994c2834b2fc5288ae79fee0b7a314114016ea99b3f2c3f56d42b464",
+    "xray/evaluation.py": "e49f8c43154665a450981cc400765973dc317f6bd878dc93f27c43cd3f68bd1d",
+    "xray/__init__.py": "e271e938ab765b3310ef9505fb4444c43abc10dbd5fe403677f89d9b344471af",
+    "xray/model.py": "15800df65e78adb42d21a4d5d7056d207bb04ec4f8f6b56c0e38de6799041046",
+    "xray/common.py": "3016aad171207fc35ef0a39ade6407c0c35c232c8ae47f3e3fcbb871d33ef3cf",
+    "xray/train.py": "1a41a961046ea96e21a8e29e3d15316f06bafb3e347071fae08026ed0b9ee51c",
+    "xray/splits.py": "47f8c3bacf0454160f6800bb1e84ddffca099f68dee4cbe7a822804887d11bf7",
+    "tests/test_verification.py": "832d0fa2bfd3179def34d52f13ec675ea05f7a2baa29fe6803f1d5a7d8889cc3"
+  },
+  "validation": "16 unittest cases passed after interruption review; see reports/review/tests.txt and verification.json. Original training artifacts unchanged.",
+  "test_set_feedback": "Cases inspected after final test; no subsequent model/preprocessing/threshold changes",
+  "initial_implementation_sha256": {
+    "run_baseline.py": "5aafc401fda8bb259426030105cef8641776cbb61cb80bd00d46ae712daa390b",
+    "prepare_manifest.py": "f492ca26dc38e36963aea3a072d72b17c9af4ed8ae5717fde83e88b33e37805b",
+    "predict.py": "e4bf78abc6395e463bafcc44ec3e6a85e62bdd2c56140def8dfb892dd1f60a4d",
+    "inspect_chest_xray.py": "237aa2685f60665f7872a487c0fd06a422150cd9d9e736f942c61110107e3f2a",
+    "verify_run.py": "0718b85edde41d7b0eb8109d6e4c4bb315f48c9c3c2c51d35b177d8a3750f5f2",
+    "tests/test_pipeline.py": "48431d4701670467a1189e33cd831517c61b090446e99dfac06405ac38c3a438",
+    "xray/audit.py": "6bfaa87a994c2834b2fc5288ae79fee0b7a314114016ea99b3f2c3f56d42b464",
+    "xray/evaluation.py": "e49f8c43154665a450981cc400765973dc317f6bd878dc93f27c43cd3f68bd1d",
+    "xray/__init__.py": "e271e938ab765b3310ef9505fb4444c43abc10dbd5fe403677f89d9b344471af",
+    "xray/model.py": "15800df65e78adb42d21a4d5d7056d207bb04ec4f8f6b56c0e38de6799041046",
+    "xray/common.py": "3016aad171207fc35ef0a39ade6407c0c35c232c8ae47f3e3fcbb871d33ef3cf",
+    "xray/train.py": "1a41a961046ea96e21a8e29e3d15316f06bafb3e347071fae08026ed0b9ee51c",
+    "xray/splits.py": "47f8c3bacf0454160f6800bb1e84ddffca099f68dee4cbe7a822804887d11bf7"
+  },
+  "review_changes": [
+    "Strengthened completion/summary, full prediction field and numeric artifact verification",
+    "Added six regression tests",
+    "Corrected README inference precision scope; no model or threshold changes"
+  ]
+}

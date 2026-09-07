@@ -1,0 +1,42 @@
+{
+  "policy": "quarantine-label-conflicts; exact-deduplicate-test>val>train; heuristic-isolate-test>val>train; no-resplit-v1",
+  "data_root": "/Users/hengning/Developer/saint/chest_xray/chest_xray",
+  "audit_manifest_sha256": "b2059fb30319da6137a4cef15ca1f54161b714ccc2cb096b608463dc88ada037",
+  "manifest_sha256": "95743166455f2cc057db1f2cc2e972f07124f78ceab77a58358ee446e5eced4e",
+  "original_counts": {
+    "train": {
+      "NORMAL": 1341,
+      "PNEUMONIA": 3875
+    },
+    "val": {
+      "NORMAL": 8,
+      "PNEUMONIA": 8
+    },
+    "test": {
+      "NORMAL": 234,
+      "PNEUMONIA": 390
+    }
+  },
+  "selected_counts": {
+    "train": {
+      "NORMAL": 1340,
+      "PNEUMONIA": 3397
+    },
+    "val": {
+      "NORMAL": 8,
+      "PNEUMONIA": 8
+    },
+    "test": {
+      "NORMAL": 231,
+      "PNEUMONIA": 387
+    }
+  },
+  "excluded_count": 485,
+  "exclusion_counts": {
+    "exact_duplicate_keep": 32,
+    "heuristic_overlap_keep_test": 453
+  },
+  "patient_level_isolation_verified": false,
+  "evaluation_scope": "limited workflow experiment with heuristic filename isolation; not verified patient-independent",
+  "test_policy": "No reassignment; only exact duplicates, label conflicts and unsupported images may be excluded from original test"
+}

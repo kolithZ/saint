@@ -1,0 +1,10 @@
+.venv/
+.cache/
+.torch/
+outputs/**/*.pt
+outputs/**/*.pt.tmp
+outputs/**/*.png
+!tests/
+!tests/**
+__pycache__/
+*.py[cod]

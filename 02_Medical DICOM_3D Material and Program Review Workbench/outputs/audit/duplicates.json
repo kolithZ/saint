@@ -1,0 +1,490 @@
+{
+  "file_duplicates": [
+    {
+      "sha256": "3853a4552e0bc9aea1f45b2e7ee27be5954cdf9a0365d7972663b62b5495d9ae",
+      "paths": [
+        "train/NORMAL/NORMAL2-IM-0587-0001-0001.jpeg",
+        "train/NORMAL/NORMAL2-IM-0587-0001-0002.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "0033d6b3f444134e4d3a320b4c9e34cdbc4ffe1fdb90023673ed1df46c643314",
+      "paths": [
+        "train/PNEUMONIA/person1159_virus_1944.jpeg",
+        "train/PNEUMONIA/person1159_virus_1945.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "1679da3844455b96ea5e792b12d24a832c4dba570628c27cb594fbfd7e2c9914",
+      "paths": [
+        "train/PNEUMONIA/person124_virus_246.jpeg",
+        "train/PNEUMONIA/person124_virus_247.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "1e273d0058cfb3cf5fb401b74797903a3e66c75fd2dbd8d14f4ef0890013d7c4",
+      "paths": [
+        "train/PNEUMONIA/person1261_virus_2147.jpeg",
+        "train/PNEUMONIA/person1261_virus_2148.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "9abe31146a4e6e0bd87509d744b97ea28b291f58e7acd14640b671967851be2e",
+      "paths": [
+        "train/PNEUMONIA/person1312_bacteria_3317.jpeg",
+        "train/PNEUMONIA/person1312_bacteria_3318.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "d77e4825fff27bbc2cc15a81dcba699ed8178cd220da72e37872524314fcf8ad",
+      "paths": [
+        "train/PNEUMONIA/person1343_bacteria_3413.jpeg",
+        "train/PNEUMONIA/person1343_bacteria_3414.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "ca083e6fbd862caec218a0686248c3c501b08c21eebb571a629769174edc54c0",
+      "paths": [
+        "train/PNEUMONIA/person1349_bacteria_3436.jpeg",
+        "train/PNEUMONIA/person1349_bacteria_3437.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "9217ffd910b2b01554e4a8aeeba0ce52318bc3a67132c8ba7e3a995835d13c13",
+      "paths": [
+        "train/PNEUMONIA/person1372_bacteria_3501.jpeg",
+        "train/PNEUMONIA/person1372_bacteria_3502.jpeg",
+        "train/PNEUMONIA/person1372_bacteria_3503.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "e324d8180008b810b79ccda935c21c2f5c82a12a5bd413fc14ad27df26e062cc",
+      "paths": [
+        "train/PNEUMONIA/person1430_bacteria_3695.jpeg",
+        "train/PNEUMONIA/person1430_bacteria_3696.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "d53c4dc3d0719f305dc7c5ab83a2cc746869d1cb78c5ad0088f0202e5129ae8d",
+      "paths": [
+        "train/PNEUMONIA/person1481_bacteria_3862.jpeg",
+        "train/PNEUMONIA/person1481_bacteria_3863.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "93d9851b858e539bee80dac11449566db6c4b027ca84ae04ebbc0e2cdc19cd40",
+      "paths": [
+        "train/PNEUMONIA/person1481_bacteria_3864.jpeg",
+        "train/PNEUMONIA/person1481_bacteria_3865.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "4d9f500ccfdde23bd7deb003994aeaf41537834458287bea61e9e80e78e8b091",
+      "paths": [
+        "train/PNEUMONIA/person1481_bacteria_3866.jpeg",
+        "train/PNEUMONIA/person1481_bacteria_3867.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "4e4df8461fc3412959b5c34abb54977332738400aeab75689b2c33ef00e27f99",
+      "paths": [
+        "train/PNEUMONIA/person1496_bacteria_3909.jpeg",
+        "train/PNEUMONIA/person1496_bacteria_3910.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "8b49e842fd5339e19fab416624e289d1f65cd4fa8520f32d8050ef70dca2d569",
+      "paths": [
+        "train/PNEUMONIA/person1619_bacteria_4267.jpeg",
+        "train/PNEUMONIA/person1619_bacteria_4268.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "704f62a1b29b3ae0ef1995610cc7cd63d9f0393bb5b653ded033cbcd1c92d409",
+      "paths": [
+        "train/PNEUMONIA/person1628_bacteria_4297.jpeg",
+        "train/PNEUMONIA/person1628_bacteria_4298.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "9f6a730d3e941b95577919c7762465db93bf43bd2ec5eac28e46870feffc264b",
+      "paths": [
+        "train/PNEUMONIA/person162_virus_321.jpeg",
+        "train/PNEUMONIA/person162_virus_322.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "81090d9a66e23b331d1d91295274231e32ba1a9a7df08ba3290f760e6cbdded3",
+      "paths": [
+        "train/PNEUMONIA/person258_bacteria_1207.jpeg",
+        "train/PNEUMONIA/person258_bacteria_1208.jpeg",
+        "train/PNEUMONIA/person258_bacteria_1209.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "baaa29769ca5561e23c4f9e86267ec7a5cea6594ea998a766268efe49d0e7679",
+      "paths": [
+        "train/PNEUMONIA/person264_bacteria_1230.jpeg",
+        "train/PNEUMONIA/person264_bacteria_1231.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "8c917bd0806be2f87778e3a816faf52f50111695dbeb9ec429c28c213b18986a",
+      "paths": [
+        "train/PNEUMONIA/person266_bacteria_1237.jpeg",
+        "train/PNEUMONIA/person266_bacteria_1238.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "8edeff0608499ec100441bf223eb543853476f929d91c173c6e27b740922e059",
+      "paths": [
+        "train/PNEUMONIA/person30_bacteria_156.jpeg",
+        "train/PNEUMONIA/person30_bacteria_157.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "bdcb46c2b61f0657d30ea07e422481e7c7b713f7d622ee99bac31a0e3aa1cdd7",
+      "paths": [
+        "train/PNEUMONIA/person357_virus_734.jpeg",
+        "train/PNEUMONIA/person357_virus_735.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "d27eeee3cb7d091ed7dc9532c89fb67a1567777e6ec07f4f506d57c1679af6b4",
+      "paths": [
+        "train/PNEUMONIA/person401_virus_797.jpeg",
+        "train/PNEUMONIA/person401_virus_798.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "f4714afae1b673b75ef83bef2ca941bd65b5d6c5c6820aaab15797a693751fbf",
+      "paths": [
+        "train/PNEUMONIA/person688_virus_1281.jpeg",
+        "train/PNEUMONIA/person688_virus_1282.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "a0bb88fd5d30acda3316391659ac8d9a8170c668410668f4401b8bc9ce6eff5e",
+      "paths": [
+        "train/PNEUMONIA/person834_bacteria_2747.jpeg",
+        "train/PNEUMONIA/person834_bacteria_2748.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "fae2085830a4c703c36348b3ccc2a5ddfd741c86f12dbef48d4a8a31726ae773",
+      "paths": [
+        "test/NORMAL/NORMAL2-IM-0095-0001.jpeg",
+        "test/NORMAL/NORMAL2-IM-0096-0001.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "409f0f6c0f8a5b8ed4e0645633b07812aff5991aaee75bbe48044711a55c7c2c",
+      "paths": [
+        "test/NORMAL/NORMAL2-IM-0173-0001-0001.jpeg",
+        "test/NORMAL/NORMAL2-IM-0173-0001-0002.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "d33d41ad42d62152689b5e5939ee03a94fd827c707e47fb451364c1a32adce72",
+      "paths": [
+        "test/NORMAL/NORMAL2-IM-0246-0001-0001.jpeg",
+        "test/NORMAL/NORMAL2-IM-0246-0001-0002.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "5824d55942d95216b7808fafa10db02aeaf63485a1a4f480faa951794a2d28b3",
+      "paths": [
+        "test/PNEUMONIA/person128_bacteria_606.jpeg",
+        "test/PNEUMONIA/person128_bacteria_607.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "dfb4e7b7b96746cde5796d473f1667680020b2ca38cc7d69757c7a3f7e2a7f90",
+      "paths": [
+        "test/PNEUMONIA/person134_bacteria_643.jpeg",
+        "test/PNEUMONIA/person134_bacteria_644.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "514afd0fa610117fbfef0e6e5b81a4d73a24815827594119af684fb8d0b2f8e2",
+      "paths": [
+        "test/PNEUMONIA/person1661_virus_2872.jpeg",
+        "test/PNEUMONIA/person1661_virus_2873.jpeg"
+      ],
+      "cross_split": false
+    }
+  ],
+  "decoded_pixel_duplicates": [
+    {
+      "sha256": "826c3440ebb6025bf32a946d97bc0244873d739afd3db3d036530326d7090d29",
+      "paths": [
+        "train/NORMAL/NORMAL2-IM-0587-0001-0001.jpeg",
+        "train/NORMAL/NORMAL2-IM-0587-0001-0002.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "9cf0b33ff982ae3e93621356b2e7c4e595e3b7aaf137e1dcdd422652878f86c3",
+      "paths": [
+        "train/PNEUMONIA/person1159_virus_1944.jpeg",
+        "train/PNEUMONIA/person1159_virus_1945.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "6fe6f546546a3ae42194cd4522f3d724f4ee746914350384a121681c18a8ff75",
+      "paths": [
+        "train/PNEUMONIA/person124_virus_246.jpeg",
+        "train/PNEUMONIA/person124_virus_247.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "d6aad02c4293793f40e2c8a34bee9faae4e9658eb6306e6f0e19003d4dbe4878",
+      "paths": [
+        "train/PNEUMONIA/person1261_virus_2147.jpeg",
+        "train/PNEUMONIA/person1261_virus_2148.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "23ebe14e1eac52b719c945823926cdde3ce677c4291ac79f49d0bbb1df2ee97c",
+      "paths": [
+        "train/PNEUMONIA/person1312_bacteria_3317.jpeg",
+        "train/PNEUMONIA/person1312_bacteria_3318.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "394628d212c100c2b40f33ecfb5ac54085f57bef1e3c04df338c7330d8d78f6d",
+      "paths": [
+        "train/PNEUMONIA/person1343_bacteria_3413.jpeg",
+        "train/PNEUMONIA/person1343_bacteria_3414.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "f9e0644c9c0d628ca696499afc9a77e1aec4d986575831014507cbf795f4aa49",
+      "paths": [
+        "train/PNEUMONIA/person1349_bacteria_3436.jpeg",
+        "train/PNEUMONIA/person1349_bacteria_3437.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "59c72c4703b729d484eee183882a9531f0da8776f09708dc65e674dd0e75b143",
+      "paths": [
+        "train/PNEUMONIA/person1372_bacteria_3501.jpeg",
+        "train/PNEUMONIA/person1372_bacteria_3502.jpeg",
+        "train/PNEUMONIA/person1372_bacteria_3503.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "55bd7a06e247d0555d962b721d9516da6dd25f2db9209548116939a50e01c066",
+      "paths": [
+        "train/PNEUMONIA/person1430_bacteria_3695.jpeg",
+        "train/PNEUMONIA/person1430_bacteria_3696.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "330c22edc2040bc6f5fd9e1747e9e6e988139abd599df86a4964eca741fa8e8b",
+      "paths": [
+        "train/PNEUMONIA/person1481_bacteria_3862.jpeg",
+        "train/PNEUMONIA/person1481_bacteria_3863.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "c4228fd2c2f1f0d51ce4d5ced8ea7ef0329daf79920d14d9c75f393c0b66f90a",
+      "paths": [
+        "train/PNEUMONIA/person1481_bacteria_3864.jpeg",
+        "train/PNEUMONIA/person1481_bacteria_3865.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "7ad592a5d8f40ea1a3258ab9a1deabd81c33c7578f0fbd901e76f0483ba4d6c5",
+      "paths": [
+        "train/PNEUMONIA/person1481_bacteria_3866.jpeg",
+        "train/PNEUMONIA/person1481_bacteria_3867.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "b345592a25c2719de885bcdd49b03cb5452de5a9fad9af5760f452ec51822ab5",
+      "paths": [
+        "train/PNEUMONIA/person1496_bacteria_3909.jpeg",
+        "train/PNEUMONIA/person1496_bacteria_3910.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "a41a2cc92ffa5c348a0c11e59c19a80e3c6cf8ce413f396fad1a0aeb0eb7f29c",
+      "paths": [
+        "train/PNEUMONIA/person1619_bacteria_4267.jpeg",
+        "train/PNEUMONIA/person1619_bacteria_4268.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "28e52188c38d4e6dfc9289b5f8929cafb72aaae47313c80c783362f2081d41ce",
+      "paths": [
+        "train/PNEUMONIA/person1628_bacteria_4297.jpeg",
+        "train/PNEUMONIA/person1628_bacteria_4298.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "78f0686c47b98199ccc6746f8bb7d9ac297e8fbae5e14e128a22c45c24ee88d2",
+      "paths": [
+        "train/PNEUMONIA/person162_virus_321.jpeg",
+        "train/PNEUMONIA/person162_virus_322.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "f91d132c91aebd5b29273610f5b31e1292dbacd6222b020ca113a03d041f2989",
+      "paths": [
+        "train/PNEUMONIA/person258_bacteria_1207.jpeg",
+        "train/PNEUMONIA/person258_bacteria_1208.jpeg",
+        "train/PNEUMONIA/person258_bacteria_1209.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "9df7d3a233ab278470e0b5fba821f593e4f3aa88d383f6cc9239b6dc31534480",
+      "paths": [
+        "train/PNEUMONIA/person264_bacteria_1230.jpeg",
+        "train/PNEUMONIA/person264_bacteria_1231.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "13e0faba4b40af9ab323e34f2d36524e34c197cbdaace2bf97ea9001e17565fe",
+      "paths": [
+        "train/PNEUMONIA/person266_bacteria_1237.jpeg",
+        "train/PNEUMONIA/person266_bacteria_1238.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "1938a1d322383af494ce180a611e4832294fba7bb127c77b05041d48bcb084b9",
+      "paths": [
+        "train/PNEUMONIA/person30_bacteria_156.jpeg",
+        "train/PNEUMONIA/person30_bacteria_157.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "211ccdf6862f5de2a6afe279270c8cc4c818e101069317ad8da4be20d261b6dc",
+      "paths": [
+        "train/PNEUMONIA/person357_virus_734.jpeg",
+        "train/PNEUMONIA/person357_virus_735.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "b9db5e27f07ed1c2638d7591d0568485b8a4251c8894d98638459fc9dc33b2c9",
+      "paths": [
+        "train/PNEUMONIA/person401_virus_797.jpeg",
+        "train/PNEUMONIA/person401_virus_798.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "1d2ca5320d858e05c4ab2980f6d9686b5fe25e28f12f54a195e4249bf5135bb3",
+      "paths": [
+        "train/PNEUMONIA/person688_virus_1281.jpeg",
+        "train/PNEUMONIA/person688_virus_1282.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "f0ef2f47c6a77f6e9a804b01e16bd485b901453eb4a01cfc0cf429cbf8091899",
+      "paths": [
+        "train/PNEUMONIA/person834_bacteria_2747.jpeg",
+        "train/PNEUMONIA/person834_bacteria_2748.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "177204926420f62b63ba18d6007fb69b34065590344734ff36d0b33eabea948f",
+      "paths": [
+        "test/NORMAL/NORMAL2-IM-0095-0001.jpeg",
+        "test/NORMAL/NORMAL2-IM-0096-0001.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "fc64fb6eb9413475e997f70c1e713bb8bae29bca9e683b80094f5493e67d674b",
+      "paths": [
+        "test/NORMAL/NORMAL2-IM-0173-0001-0001.jpeg",
+        "test/NORMAL/NORMAL2-IM-0173-0001-0002.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "075106358789d068e9e4c8fb836940f2fd2fb08ab0ddac5de44d0aacb7b3fa1c",
+      "paths": [
+        "test/NORMAL/NORMAL2-IM-0246-0001-0001.jpeg",
+        "test/NORMAL/NORMAL2-IM-0246-0001-0002.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "c0b2de478c1d0a3419e59de9a9c2b06f564f9594a9b0540a23c2c43357d58985",
+      "paths": [
+        "test/PNEUMONIA/person128_bacteria_606.jpeg",
+        "test/PNEUMONIA/person128_bacteria_607.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "c153e2ac6e3554cf0af15556cf82123a51080ddaaf2734e8914ceaf467a635fd",
+      "paths": [
+        "test/PNEUMONIA/person134_bacteria_643.jpeg",
+        "test/PNEUMONIA/person134_bacteria_644.jpeg"
+      ],
+      "cross_split": false
+    },
+    {
+      "sha256": "0b953fce7a64f804b476b5006a96d4532b1779809fc48f89f14a1e965c1ce3c1",
+      "paths": [
+        "test/PNEUMONIA/person1661_virus_2872.jpeg",
+        "test/PNEUMONIA/person1661_virus_2873.jpeg"
+      ],
+      "cross_split": false
+    }
+  ]
+}

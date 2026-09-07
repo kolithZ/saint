@@ -1,0 +1,7 @@
+{
+  "image_path": "/Users/hengning/Developer/saint/chest_xray/test/NORMAL/IM-0001-0001.jpeg",
+  "predicted_label": "PNEUMONIA",
+  "p_normal": 0.44907864928245544,
+  "p_pneumonia": 0.5509213805198669,
+  "usage": "Algorithm research only; not a clinical diagnosis."
+}

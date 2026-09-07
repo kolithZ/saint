@@ -1,0 +1,18 @@
+{
+  "data_root": "../chest_xray",
+  "outputs_dir": "outputs",
+  "splits_dir": "splits",
+  "seed": 20260907,
+  "subset": {
+    "train_per_class": 300,
+    "val_per_class": 50
+  },
+  "training": {
+    "image_size": 224,
+    "batch_size": 16,
+    "epochs": 3,
+    "learning_rate": 0.001,
+    "num_workers": 0,
+    "threshold": 0.5
+  }
+}

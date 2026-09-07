@@ -1,0 +1,64 @@
+{
+  "seed": 42,
+  "device": "cpu",
+  "threads": 4,
+  "batch_size": 32,
+  "weights": "ResNet18_Weights.IMAGENET1K_V1",
+  "preprocess": {
+    "size": 224,
+    "interpolation": "bilinear",
+    "padding": "center_black",
+    "grayscale": "Pillow L replicated to RGB",
+    "orientation": "EXIF transpose",
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "crop": false
+  },
+  "classifier": {
+    "C": 1.0,
+    "class_weight": "balanced",
+    "solver": "lbfgs",
+    "max_iter": 3000
+  },
+  "threshold": 0.5,
+  "threshold_policy": "fixed before validation and test; no optimization",
+  "aux_available": false,
+  "manifest_sha256": "95743166455f2cc057db1f2cc2e972f07124f78ceab77a58358ee446e5eced4e",
+  "data_root": "/Users/hengning/Developer/saint/chest_xray/chest_xray",
+  "counts": {
+    "train": {
+      "NORMAL": 1340,
+      "PNEUMONIA": 3397
+    },
+    "val": {
+      "NORMAL": 8,
+      "PNEUMONIA": 8
+    },
+    "test": {
+      "NORMAL": 231,
+      "PNEUMONIA": 387
+    }
+  },
+  "split_policy": "quarantine-label-conflicts; exact-deduplicate-test>val>train; heuristic-isolate-test>val>train; no-resplit-v1",
+  "patient_level_isolation_verified": false,
+  "evaluation_scope": "limited workflow experiment with heuristic filename isolation; not verified patient-independent",
+  "environment": {
+    "torch": "2.14.0",
+    "torchvision": "0.29.0",
+    "scikit-learn": "1.9.0",
+    "Pillow": "12.3.0",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1"
+  },
+  "python": "3.14.6",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "case_rule": "3 per outcome; errors furthest from threshold, correct nearest; path tie-break"
+}

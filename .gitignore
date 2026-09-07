@@ -1,0 +1,31 @@
+# 不上传图片数据
+chest_xray/
+.DS_Store
+data/chest_xray_small/
+.venv/
+__pycache__/
+reports/*.npz
+reports/*.png
+# Node
+node_modules/
+
+# Environment variables
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# IDE
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# ai
+docs/ 
+tests/
+.superpowers/

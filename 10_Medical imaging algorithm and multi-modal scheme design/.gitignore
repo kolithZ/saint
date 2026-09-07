@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.py[cod]
+.torch/
+reports/**/*.npz
+reports/**/*.pth
+reports/**/*.png
+reports/**/*.log
+# Override the parent repository's broad tests/ ignore for project tests.
+!tests/
+!tests/**

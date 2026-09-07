@@ -1,0 +1,20 @@
+{
+  "dataset_name_from_user_context": "Chest X-Ray Images (Pneumonia)",
+  "local_root_relative_to_project": "../chest_xray/chest_xray",
+  "actual_download_url": null,
+  "download_date": null,
+  "dataset_version": null,
+  "archive_name": null,
+  "archive_sha256": null,
+  "license_evidence": null,
+  "original_publication_verified_for_local_archive": false,
+  "deidentification": "User stated deidentified; not independently verified by this software",
+  "verified_patient_or_exam_identifier": null,
+  "patient_level_isolation_verified": false,
+  "paired_auxiliary_data_available": false,
+  "candidate_source_urls": [
+    "https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia",
+    "https://data.mendeley.com/datasets/rscbjbr9sj/3"
+  ],
+  "scope": "User-requested local engineering experiment; source and license are not certified; do not infer a download version from filenames"
+}
